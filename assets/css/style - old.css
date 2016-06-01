@@ -1,0 +1,43 @@
+#content {
+width:50%;
+margin:70px auto 0 auto;
+height:100%;
+}
+.article {
+border-bottom:dashed 1px #777;
+padding:10px;
+}
+h2 {
+text-align:center;
+font-style:oblique;
+}
+.delete a {
+color:red;
+float:right;
+text-decoration:none;
+}
+.update a {
+color:#777;
+float:right;
+text-decoration:none;
+margin-right:10px;
+}
+input[type=text] {
+display:block;
+width:300px;
+height:25px;
+line-height:25px;
+}
+textarea {
+display:block;
+line-height:20px;
+width:400px;
+height:150px;
+}
+input[type=submit] {
+display:block;
+margin-top:20px;
+}
+.error{
+    color: red;
+}
